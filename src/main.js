@@ -28,4 +28,3 @@ export const initFirebase = () => {
         autoplay: true,
         arrows: true
       });
-       
