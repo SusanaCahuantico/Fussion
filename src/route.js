@@ -20,7 +20,7 @@ const changeView = (route) => {
     switch (route) {
         case '#/home':  root.appendChild(components.home())
         break;
-     case '#/mesero': root.appendChild(components.order())
+     case '#/somos': root.appendChild(components.somos())
         break;
         case '#/catalogo': root.appendChild(components.catalogo())
         break;
