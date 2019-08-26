@@ -1,10 +1,24 @@
 *{
     margin: 0;
     padding: 0;
-
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 .bg-light {
     background-color: #ffffff!important;
+}
+.cont-slider{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right{
+    color: black;
+    font-size: 60px;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+    margin-left: auto!important;
+}
+.navbar{
+    font-family: 'Bebas Neue Bold';
 }
