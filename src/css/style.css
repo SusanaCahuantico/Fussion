@@ -1,1 +1,3 @@
-@import url(somos.css);
+
+@import "home.css";
+@import 'somos.css';
