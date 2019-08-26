@@ -19,7 +19,7 @@ export const initFirebase = () => {
         init()
     });
     
-    $('#slider1').slick({
+/*     $('#slider1').slick({
         dots: true,
         infinite: true,
         speed: 500,
@@ -27,4 +27,4 @@ export const initFirebase = () => {
         cssEase: 'linear',
         autoplay: true,
         arrows: true
-      });
+      }); */
