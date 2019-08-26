@@ -10,7 +10,7 @@ export default () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Quienes somos <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#/somos">Quienes somos <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">El corazon de Fussion</a>
@@ -23,7 +23,7 @@ export default () => {
             Catalogo
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Productos</a>
+            <a class="dropdown-item" href="#/catalogo">Productos</a>
             <a class="dropdown-item" href="#">Merch</a>            
           </div>
         </li>
