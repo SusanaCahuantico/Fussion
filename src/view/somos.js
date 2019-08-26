@@ -12,7 +12,7 @@ export default () => {
          tenemos claro que cada diseño es más que solo una cartera, monedero o cartuchera hecho de reciclaje, 
          pues detrás de cada uno hay un motivo, un concepto, hay menos bolsas en el mar </p>
          </div>
-         <div>
+         <div class="col-5">
            <img src="./image/tortuga.jpg" class="img-somos">
            </div>
       </div>
@@ -24,7 +24,7 @@ export default () => {
          a través de una cultura de consumo responsable y consciente teniendo como eje 
          principal las 3Rs del Reciclaje </p>
          </div>
-        <div>
+        <div class="col-5">
         <img src="./image/fotosface1.jpg" class="img-somos">
         </div>
      </div>
@@ -35,7 +35,7 @@ export default () => {
          marca de impacto con sentido y seguir sumando esfuerzos por el desarrollo sostenible del Perú y
          el mundo a través de nuestro trabajo. </p>
        </div>
-       <div>
+       <div class="col-5">
         <img src="./image/tortuga.jpg" class="img-somos">
        </div>
       </div>
@@ -44,7 +44,7 @@ export default () => {
          <h3> Valores </h3>
          <p class="p-somos">  Coherencia - Creatividad – Innovación - Ética - Sostenibilidad - Responsable </p>
         </div>
-        <div>
+        <div class="col-5">
            <img src="./image/save.jpg" class="img-somos">
         </div>
       </div>
