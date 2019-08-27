@@ -5,7 +5,7 @@ const changetmp = (hash) => {
         return changeView('#/home')
     }else if (hash === '#/home' || hash === '#/somos') {
         return changeView(hash);
-    } else if (hash === '#home' || hash === '#/catalogo'){
+    } else if (hash === '#home' || hash === '#/productos'){
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/merch'){
         return changeView(hash);
@@ -26,7 +26,7 @@ const changeView = (route) => {
         break;
      case '#/somos': root.appendChild(components.somos())
         break;
-        case '#/catalogo': root.appendChild(components.catalogo())
+        case '#/productos': root.appendChild(components.catalogo())
         break;
         case '#/merch': root.appendChild(components.merch())
         break;
