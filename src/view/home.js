@@ -27,9 +27,9 @@ export default () => {
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#/charlas">Charlas y Talleres</a>
-            </li>            
+
+
+            
         </ul>
         
         </div>
