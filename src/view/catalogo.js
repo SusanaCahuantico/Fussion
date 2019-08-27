@@ -33,7 +33,7 @@ export default () => {
    </div>
   </div>
   <main id="products">
-  aqui vaaaaa un funcion
+  
   
   </main>
  <footer>
