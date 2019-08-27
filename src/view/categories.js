@@ -29,9 +29,7 @@ export default () => {
             <a class="dropdown-item" href="#">Merch</a>            
         </div>
         </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Charlas y Talleres</a>
-        </li>            
+                    
     </ul>    
     </div>
 </nav>
