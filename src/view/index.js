@@ -11,6 +11,8 @@ import MiniBolsos from './MiniBolsos.js';
 import MiniMonederos from './MiniMonederos.js';
 import Billeteras from './Billeteras.js';
 import Llaveros from './Llaveros.js';
+import Impacto from './impacto.js';
+
 export const components =  {
     home: Home,
     somos: Somos,
@@ -25,4 +27,5 @@ export const components =  {
     miniMonederos:MiniMonederos,
     billeteras:Billeteras,
     llaveros:Llaveros,
+    impacto: Impacto,
 }

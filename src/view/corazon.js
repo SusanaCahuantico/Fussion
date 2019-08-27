@@ -7,14 +7,13 @@ export default () => {
          <h3 class="fundadora"> Fundadora </h3>
           <div class="col-sm">
              <img src="./image/fundadora.jpeg" class="img-fundadora col-5">
-             <p class="parrafo col-5"> Directora General 
+             <p class="parrafo col-5"> 
              Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta vocacional, 
-            su experiencia en sostenibilidad lo aprendió de la web, lleva 7 años emprendiendo un proyecto de manejo
-            y transformación de residuos sólidos, Paula identificó una problemática latente que no solo comprendía a Perú, 
-            si no también a toda Latinoamérica y el mundo, es así que empezó a estudiar el proceso de transformación 
-            de bolsas plásticas, una vez con la fórmula perfeccionada y conociendo a detalle dicho residuo, 
-            lanzó su primera marca de moda sostenible FUSSION, donde crea cuero plástico hecho en base a 
-           bolsas plásticas recicladas y diseña accesorios de moda, ideales para el uso diario y 100% estéticos. </p>
+             lleva 7 años emprendiendo un proyecto de manejo y transformación de residuos sólidos, Paula identificó 
+             una problemática latente en Perú y el mundo, es así que empezó a estudiar el proceso de transformación 
+            de bolsas plásticas, y una vez con la fórmula perfeccionada, lanzó su primera marca de moda sostenible FUSSION, 
+            donde crea cuero plástico hecho en base a 
+           bolsas recicladas y diseña accesorios de moda. </p>
           </div>
         </div>
        </div>

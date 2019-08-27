@@ -64,14 +64,11 @@ const main=  `<div class="card-deck" >
   <div class="card-body">
   ${obj.datos.name !== undefined ? `
   <h5 class="card-title">${obj.datos.name} </h5>` : ''}  
-    <p class="card-text">Info:${obj.datos.info}</p>
-    <p class="card-text">Impacto:${obj.datos.impacto}</p>
-    <p class="card-text"><small class="text-muted"> Precio: S/.${obj.datos.price}</small></p>
+    <p class="card-text"><strong>Información:</strong>${obj.datos.info}</p>
+    <p class="card-text"><strong>Impacto: </strong>${obj.datos.impacto}</p>
+    <p class="card-text"><small class="text-muted"> <strong>Precio: S/.${obj.datos.price} </strong></small></p>
   </div>
 </div>
-<button>-</button>
-<span>1</span>
-<button>+</button>
 </div> `;
 div.innerHTML=main;
 appendMain.appendChild(div);
