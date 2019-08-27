@@ -36,6 +36,9 @@ const changetmp = (hash) => {
     }
     else if (hash === '#/home' || hash === '#/fussion-llaveros'){
         return changeView(hash);   
+    } 
+    else if (hash === '#/home' || hash === '#/impacto'){
+        return changeView(hash);   
     }
     else {
         return changeView('#/home');
@@ -73,6 +76,8 @@ const changeView = (route) => {
         case '#/fussion-billeteras': root.appendChild(components.billeteras())
         break;
         case '#/fussion-llaveros': root.appendChild(components.llaveros())
+        break;
+        case '#/impacto': root.appendChild(components.impacto())
         break;
         default:
             break;

@@ -16,7 +16,7 @@ export default () => {
             <a class="nav-link" href="#/corazon">El corazon de Fussion</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Impacto</a>
+            <a class="nav-link" href="#/impacto">Impacto</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,7 +73,7 @@ export default () => {
            
             <div class="cont-informacion somos">
            <div class="cont-mitad  cont-img">
-              <img src="./image/tortuga.jpg" class="img-somos">
+              <img src="./image/fondo6.jpg" class="img-somos">
            </div>
            <div class="box-que cont-mitad">
               <p class="p-somos"> <span>FUSSION</span> es una marca de productos de diseño con valor sostenible hechos
