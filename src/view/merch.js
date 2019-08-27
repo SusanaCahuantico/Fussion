@@ -27,15 +27,15 @@ export default () => {
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#/charlas"> Charlas y Talleres </a>
-            </li>            
+
+            
+            
         </ul>  
         </div>
     </nav>
  
     <div class="fondo-merch">
-       <form action="https://formspree.io/iloverecycling.peru@gmail.com@gmail.com" method="POST" />
+       <form action="https://formspree.io/iloverecycling.peru@gmail.com" method="POST" />
          <h2> CONTACTO </h2>
          <input type="text" name="name" id="nombre" placeholder="Nombre">
          <input type="text" name="name" id="correo" placeholder="Correo">

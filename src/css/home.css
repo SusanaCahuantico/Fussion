@@ -154,7 +154,6 @@ footer i{
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
-    background: url(../image/hoja.jpg);
 }
 
 @media (max-width: 768px){
