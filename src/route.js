@@ -5,11 +5,16 @@ const changetmp = (hash) => {
         return changeView('#/home')
     }else if (hash === '#/home' || hash === '#/somos') {
         return changeView(hash);
-    } else if (hash === '#home' || hash === '#/productos'){
+    } else if (hash === '#home' || hash === '#/catalogo'){
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/merch'){
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/corazon'){
+        return changeView(hash);
+    } /* else if(hash === '#/home' || hash === '#/charlas'){
+        return changeView(hash);
+    }  */
+    else if(hash === '#/home' || hash === '#/categories'){
         return changeView(hash);
     } else {
         return changeView('#/home');
@@ -24,11 +29,15 @@ const changeView = (route) => {
         break;
      case '#/somos': root.appendChild(components.somos())
         break;
-        case '#/productos': root.appendChild(components.catalogo())
+        case '#/catalogo': root.appendChild(components.catalogo())
         break;
         case '#/merch': root.appendChild(components.merch())
         break;
         case '#/corazon': root.appendChild(components.corazon())
+        break;
+        case '#/charlas': root.appendChild(components.charlas())
+        break;
+        case '#/categories': root.appendChild(components.categories())
         break;
         default:
             break;

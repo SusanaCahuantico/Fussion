@@ -10,6 +10,7 @@
   }
   .content-card{
     width: 30%;
+    margin-bottom: 10px;
   }
   .products{
     display: flex;

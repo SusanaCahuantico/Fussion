@@ -1,0 +1,20 @@
+.div-options{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    height: 100%;    
+    width: 100%;
+    text-align: center;
+    
+}
+.div-options span {
+  
+    background: rgba(255,255,255,0.5);
+    color: black;
+    padding: 5px;
+}
+.div-options:hover{
+    background: rgba(0,0,0, 0.5);
+}
