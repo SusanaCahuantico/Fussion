@@ -1,0 +1,19 @@
+.product-img-div{
+    display: block;
+    width: 100%;  
+    position: relative;
+  }
+  .product-img-div img{
+    position: relative;
+    width:100%;
+    height: auto;
+  }
+  .content-card{
+    width: 30%;
+  }
+  .products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+  }

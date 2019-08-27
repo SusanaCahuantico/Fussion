@@ -23,7 +23,7 @@ export default () => {
                 Catalogo
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Productos</a>
+                <a class="dropdown-item" href="#/productos">Productos</a>
                 <a class="dropdown-item" href="#">Merch</a>            
             </div>
             </li>
