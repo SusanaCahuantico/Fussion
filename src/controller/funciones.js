@@ -30,3 +30,4 @@ export const dataCategories = () => {
         return array;
     }); 
 }
+

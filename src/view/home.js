@@ -117,13 +117,7 @@ export default () => {
             </div>
         </div>
     </div>
-
-
-
-
-
-// El corazon de fussion
-    <footer>
+<footer>
     <div class="cont-footer">
         <div >
             <p> Siguenos: </p>

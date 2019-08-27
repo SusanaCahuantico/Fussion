@@ -38,7 +38,7 @@ export default () => {
     </div>
 </nav>
 </header>
-<main id="products" class='products'>
+<main id="products" class='products minicartucheras'>
  </main>
 <footer>
 <div>

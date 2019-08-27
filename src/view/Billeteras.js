@@ -71,6 +71,9 @@ const main=  `<div class="card-deck" >
     <p class="card-text"><small class="text-muted"> Precio: S/.${obj.datos.price}</small></p>
   </div>
 </div>
+<button>-</button>
+<span>1</span>
+<button>+</button>
 </div> `;
 div.innerHTML=main;
 appendMain.appendChild(div);

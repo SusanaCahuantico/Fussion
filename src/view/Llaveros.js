@@ -1,6 +1,9 @@
 import {dataProduct} from '../controller/funciones.js';
-
+import { getProductsInRealTime} from '../controller/firebase.js';
 export default () => {  
+    console.log(getProductsInRealTime(()=>{
+        
+    }));
     const createDiv = document.createElement('div');
     const miniCartucheras = `
     <header>
