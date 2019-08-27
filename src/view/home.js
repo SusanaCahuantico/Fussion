@@ -16,7 +16,7 @@ export default () => {
             <a class="nav-link" href="#corazon">El corazon de Fussion</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#/impacto">Impacto</a>
+            <a class="nav-link" href="#impacto">Impacto</a>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -157,7 +157,7 @@ export default () => {
 
 
 
-    <div>
+    <div id="impacto">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-xs-12">
             <img src="./image/consumeconsentido.jpg" class="img-impacto">
