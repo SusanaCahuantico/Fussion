@@ -23,12 +23,12 @@ export default () => {
                 Catalogo
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#/catalogo">Productos</a>
+                <a class="dropdown-item" href="#/categories">Productos</a>
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Charlas y Talleres</a>
+            <a class="nav-link" href="#/charlas">Charlas y Talleres</a>
             </li>            
         </ul>
         

@@ -2,3 +2,10 @@
       width: 350px;
       height: 350px;
 }
+
+.container{
+    position: relative;
+    left: 15%;
+    right: 10%;
+    
+}
