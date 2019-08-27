@@ -1,13 +1,10 @@
 .img-fundadora, .img-equipo{
-      width: 350px;
-      height: 350px;
-      float: left;
+    width: 70%;
+    margin: 20px;
 }
 
 .fundadora{
-    font-weight: bold;
-    padding: 18px;
-
+    font-family: 'Bebas Neue Bold';
 }
 
 .parrafo{
@@ -16,7 +13,12 @@
     padding: 12px;
     text-align: center;
 }
-
+.text-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .img-charla{
     width: 270px;
     height: 300px;
@@ -28,4 +30,7 @@
     text-align: center;
     padding: 17px;
     font-weight: bold;
+}
+.cont-corazon .row{
+    padding-top: 50px;
 }

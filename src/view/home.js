@@ -13,7 +13,7 @@ export default () => {
             <a class="nav-link" href="#somos">Quienes somos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#/corazon">El corazon de Fussion</a>
+            <a class="nav-link" href="#corazon">El corazon de Fussion</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#/impacto">Impacto</a>
@@ -54,6 +54,10 @@ export default () => {
                 <div class="carousel-item">
                 <img class="d-block w-100 img-desktop" src="./image/img-3.jpg" alt="Third slide">
                 <img class="d-block w-100 img-mob" src="./image/img-3-mob.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                <img class="d-block w-100 img-desktop" src="./image/img-4.jpg" alt="Third slide">
+                <img class="d-block w-100 img-mob" src="./image/img-4-mob.jpg" alt="First slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -130,6 +134,43 @@ export default () => {
         </div>
         </div>
      </div>
+
+
+
+     <div id="corazon" class="cont-corazon"> 
+     <div class="row flex-reves" style="background-color: rgb(230, 230, 230);">       
+         <div class="col-lg-6 col-xs-12 text-center"> 
+             <img src="./image/fundadora.jpeg" class="img-fundadora">
+         </div>
+         <div class="col-lg-6 col-xs-12  text-flex">
+             <h3 class="fundadora"> Fundadora </h3>
+             <p class="parrafo "> Directora General 
+                     Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta vocacional, 
+                     su experiencia en sostenibilidad lo aprendió de la web, lleva 7 años emprendiendo un proyecto de manejo
+                     y transformación de residuos sólidos, Paula identificó una problemática latente que no solo comprendía a Perú, 
+                     si no también a toda Latinoamérica y el mundo, es así que empezó a estudiar el proceso de transformación 
+                     de bolsas plásticas, una vez con la fórmula perfeccionada y conociendo a detalle dicho residuo, 
+                     lanzó su primera marca de moda sostenible FUSSION, donde crea cuero plástico hecho en base a 
+                     bolsas plásticas recicladas y diseña accesorios de moda, ideales para el uso diario y 100% estéticos. </p>
+ 
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-lg-6 col-xs-12  text-flex">
+                 <h3 class="fundadora"> Nuestro Equipo </h3>
+             <p class="parrafo"> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
+            desde hace 7 años venimos recuperando
+            alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
+         </div>
+            <div class="col-lg-6 col-xs-12  text-center">
+            <img src="./image/fotogrupo.jpg" class="img-fundadora">              
+            </div>    
+         </div>
+     </div>
+
+
+
+     
 
 
 
