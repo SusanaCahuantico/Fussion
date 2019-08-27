@@ -1,4 +1,5 @@
 import {dataProduct} from '../controller/funciones.js';
+
 export default () => {
   console.log(dataProduct());
     const createDiv = document.createElement('div');
@@ -21,7 +22,7 @@ export default () => {
     </ul>
     </nav>
      <img scr="./image/fussion.jpg">
-</header>
+  </header>
 
   <div>
    <div id="slider1">
@@ -32,18 +33,18 @@ export default () => {
    </div>
   </div>
   <main id="products">
-  aqui vaaaaa un funcion
+  
   
   </main>
-<footer>
-<div>
+ <footer>
+ <div>
     <p> Siguenos </p>
     <i class="fab fa-instagram"></i>   
     <i class="fab fa-facebook"></i>
     <i class="fas fa-envelope-square"></i>
     <i class="fab fa-whatsapp"></i>
-</div>
-</footer>
+ </div>
+ </footer>
     `;
     createDiv.innerHTML = catalogo;
     dataProduct().then((response)=>{
