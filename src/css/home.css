@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:sans-serif;
 }
 #root{
     position: relative;
@@ -26,7 +27,7 @@
     margin-right: 0!important;
     margin-left: auto!important;
 }
-.navbar{
+.navbar .nav-link{
     font-family: 'Bebas Neue Bold';
 }
 footer{
@@ -85,4 +86,72 @@ footer i{
 }
 .cont-footer p{
     font-size: 18px;
+}
+.cont-somos h3{
+    text-align: center;
+    font-family: 'Bebas Neue Bold';
+}
+.cont-somos .cont-mitad{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+}
+.cont-somos.right .cont-mitad{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.cont-somos.left{
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 30px 20px;
+}
+.cont-somos.right{
+    background-color: rgb(255,255,255);
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 30px 20px;
+}
+.cont-somos .cont-informacion.somos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+.cont-somos .cont-informacion{
+    display: flex;
+    flex-direction: column;
+
+}
+.cont-somos .cont-informacion.somos{
+    padding-top: 60px
+}
+.cont-somos .cont-img{
+    text-align: center;
+}
+.cont-somos .box-que{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.cont-somos .p-somos span{
+    font-family: 'Bebas Neue Bold';
+    font-size: 30px;
+
+}
+.cont-somos.right{
+    width: 33%;
+
+}
+.cont-somos.left{
+ 
+    width: 100%;
+}
+.cont-mision-vision{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
 }
