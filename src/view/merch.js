@@ -35,13 +35,13 @@ export default () => {
     </nav>
  
     <div class="fondo-merch">
-       <form action="">
+       <form action="https://formspree.io/iloverecycling.peru@gmail.com@gmail.com" method="POST" />
          <h2> CONTACTO </h2>
-         <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-         <input type="text" name="correo" id="correo" placeholder="Correo">
-         <input type="number" name="telefono" id="telefono" placeholder="Teléfono">
-         <textarea name="mensaje" placeholder="Escriba aquí su mensaje"></textarea>
-         <input type="button" value="ENVIAR" id="boton">
+         <input type="text" name="name" id="nombre" placeholder="Nombre">
+         <input type="text" name="name" id="correo" placeholder="Correo">
+         <input type="number" name="name" id="telefono" placeholder="Teléfono">
+         <textarea name="name" placeholder="Escriba aquí su mensaje"></textarea>
+         <input type="submit" name="name" value="ENVIAR" id="boton">
        </form>
        <div id="pintar-input">
        </div>
