@@ -152,20 +152,25 @@ export default () => {
  
          </div>
      </div>
-     <div class="row">
-         <div class="col-lg-6 col-xs-12  text-flex">
-                 <h3 class="fundadora"> Nuestro Equipo </h3>
-             <p class="parrafo"> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
-            desde hace 7 años venimos recuperando
-            alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
-         </div>
-            <div class="col-lg-6 col-xs-12  text-center">
-            <img src="./image/fotogrupo.jpg" class="img-fundadora">              
-            </div>    
-         </div>
      </div>
 
 
+
+
+    <div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/consumeconsentido.jpg" class="img-impacto">
+            </div> 
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/reusa.png" class="img-impacto">
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/eco1.jpg" class="img-impacto">
+            </div>
+            
+        </div>
+    </div>
 
      
 
