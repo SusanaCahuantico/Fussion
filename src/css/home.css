@@ -1,10 +1,83 @@
 *{
     margin: 0;
     padding: 0;
-
-    font-family: sans-serif;
     box-sizing: border-box;
+}
+#root{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
 }
 .bg-light {
     background-color: #ffffff!important;
+}
+.cont-slider{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right{
+    color: black;
+    font-size: 60px;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+    margin-left: auto!important;
+}
+.navbar{
+    font-family: 'Bebas Neue Bold';
+}
+footer{
+    background: #000000;
+    color: #ffffff;
+    
+}
+.nav-link {
+    font-size: 22px;
+}
+footer i{
+ font-size: 30px;
+}
+
+.cont-footer{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cont-icon{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 4px;
+}
+.cont-icon i{
+    margin-right: 5px;
+}
+.cont-redes{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cont-redes a{
+    color: #ffffff;
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar .logo img{
+    position: relative;
+    width: 100%;
+}
+.cont-footer p{
+    font-size: 18px;
 }
