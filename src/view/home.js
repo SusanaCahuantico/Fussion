@@ -27,9 +27,9 @@ export default () => {
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#/charlas">Charlas y Talleres</a>
-            </li>            
+
+
+            
         </ul>
         
         </div>
@@ -76,7 +76,7 @@ export default () => {
         <div id="somos" class="cont-somos left">
            
             <div class="cont-informacion somos">
-           <div class="cont-mitad  cont-img">
+           <div class="cont-mitad  cont-img img-mob-cont">
               <img src="./image/fondo6.jpg" class="img-somos">
            </div>
            <div class="box-que cont-mitad">

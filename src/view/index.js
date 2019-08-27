@@ -3,7 +3,6 @@ import Somos from './somos.js';
 import Catalogo from './catalogo.js';
 import Merch from './merch.js';
 import Corazon from './corazon.js';
-import Charlas from './charlas.js';
 import Categories from './categories.js';
 import MiniCartucheras from './MiniCartucheras.js';
 import EcoBolso from './EcoBolso.js';
@@ -20,7 +19,6 @@ export const components =  {
     catalogo:Catalogo,
     merch: Merch,
     corazon: Corazon,
-    charlas: Charlas,
     categories:Categories,
     miniCartucheras:MiniCartucheras,
     ecoBolso:EcoBolso,
