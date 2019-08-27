@@ -27,9 +27,7 @@ export default () => {
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
-
-            
-            
+                       
         </ul>  
         </div>
     </nav>

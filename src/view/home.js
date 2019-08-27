@@ -27,9 +27,7 @@ export default () => {
                 <a class="dropdown-item" href="#/merch">Merch</a>            
             </div>
             </li>
-
-
-            
+                       
         </ul>
         
         </div>
@@ -77,7 +75,7 @@ export default () => {
            
             <div class="cont-informacion somos">
            <div class="cont-mitad  cont-img img-mob-cont">
-              <img src="./image/fondo6.jpg" class="img-somos">
+              <img src="./image/somos.jpg" class="img-somos">
            </div>
            <div class="box-que cont-mitad">
               <p class="p-somos"> <span>FUSSION</span> es una marca de moda sostenible que trabaja a favor de la conservación de los océanos.
@@ -102,7 +100,7 @@ export default () => {
               </p>
            </div>
            <div class="cont-mitad  cont-img">
-              <img src="./image/fotosface1.jpg" class="img-somos">
+              <img src="./image/mision.jpg" class="img-somos">
            </div>
         </div>
         </div>
@@ -110,7 +108,7 @@ export default () => {
            <h3> Visión </h3>
            <div class="cont-informacion">
            <div class="cont-mitad cont-img">
-              <img src="./image/tortuga.jpg" class="img-somos">
+              <img src="./image/reciclar.png" class="img-somos width-60">
            </div>
            <div class="box-que cont-mitad">
               <p class="p-somos"> Buscamos ser la primera opción de productos responsables y sostenibles, ser reconocidos como
@@ -127,7 +125,7 @@ export default () => {
               <p class="p-somos">  Coherencia - Creatividad – Innovación - Ética - Sostenibilidad - Responsable </p>
            </div>
            <div class="cont-mitad  cont-img">
-              <img src="./image/save.jpg" class="img-somos">
+              <img src="./image/valores.jpg" class="img-somos width-60">
            </div>
         </div>
         </div>
@@ -154,20 +152,25 @@ export default () => {
  
          </div>
      </div>
-     <div class="row">
-         <div class="col-lg-6 col-xs-12  text-flex">
-                 <h3 class="fundadora"> Nuestro Equipo </h3>
-             <p class="parrafo"> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
-            desde hace 7 años venimos recuperando
-            alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
-         </div>
-            <div class="col-lg-6 col-xs-12  text-center">
-            <img src="./image/fotogrupo.jpg" class="img-fundadora">              
-            </div>    
-         </div>
      </div>
 
 
+
+
+    <div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/consumeconsentido.jpg" class="img-impacto">
+            </div> 
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/reusa.png" class="img-impacto">
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+            <img src="./image/eco1.jpg" class="img-impacto">
+            </div>
+            
+        </div>
+    </div>
 
      
 

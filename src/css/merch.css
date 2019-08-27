@@ -42,11 +42,15 @@ textarea{
 #boton{
     background: rgb(26, 26, 27);
     color: white;
-    padding: 20px;
-    height: 55px;
+    padding: 15px;
+    height: 45px;
     width: 150px;
     border-radius: 7px;
-    border: none; 
+    border: none;
+    line-height: 16px;
+    position: relative;
+    display: block;
+    margin: 0 auto; 
 }
 
 #boton:hover {
@@ -56,5 +60,17 @@ textarea{
 @media (max-width:480px){
     form{
         width: 100%;
+    }
+    .cont-icon {
+        font-size: 12px;
+    }
+    .cont-footer p {
+        font-size: 14px;
+    }
+    footer i {
+        font-size: 20px;
+    }
+    .cont-footer p {
+        margin-bottom: 10px;
     }
 }

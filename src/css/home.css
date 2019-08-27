@@ -107,7 +107,6 @@ footer i{
     position: relative;
     display: block;
     height: 100%;
-    padding: 30px 20px;
 }
 .cont-somos.right{
     background-color: rgb(255,255,255);
@@ -127,10 +126,14 @@ footer i{
 
 }
 .cont-somos .cont-informacion.somos{
-    padding-top: 60px
+    padding-top: 60px;
+    padding-bottom:20px;
 }
 .cont-somos .cont-img{
     text-align: center;
+}
+.cont-somos .cont-mitad img{
+    width: 90%;
 }
 .cont-somos .box-que{
     display: flex;
@@ -154,6 +157,8 @@ footer i{
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
+    background: #ffffff;
+
 }
 
 @media (max-width: 768px){
