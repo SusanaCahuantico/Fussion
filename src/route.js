@@ -11,7 +11,33 @@ const changetmp = (hash) => {
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/corazon'){
         return changeView(hash);
-    } else {
+    } else if(hash === '#/home' || hash === '#/charlas'){
+        return changeView(hash);
+      } else if(hash === '#/home' || hash === '#/categories'){
+            return changeView(hash);           
+            
+    }else if (hash === '#/home' || hash === '#/fussion-minicartucheras'){
+        return changeView(hash);   
+    } 
+    else if (hash === '#/home' || hash === '#/fussion-ecobolso'){
+        return changeView(hash);   
+    }
+    else if (hash === '#/home' || hash === '#/fussion-portatablets'){
+        return changeView(hash);   
+    }
+    else if (hash === '#/home' || hash === '#/fussion-minibolsos'){
+        return changeView(hash);   
+    }
+    else if (hash === '#/home' || hash === '#/fussion-minimonederos'){
+        return changeView(hash);   
+    }
+    else if (hash === '#/home' || hash === '#/fussion-billeteras'){
+        return changeView(hash);   
+    }
+    else if (hash === '#/home' || hash === '#/fussion-llaveros'){
+        return changeView(hash);   
+    }
+    else {
         return changeView('#/home');
     }
 }
@@ -29,6 +55,24 @@ const changeView = (route) => {
         case '#/merch': root.appendChild(components.merch())
         break;
         case '#/corazon': root.appendChild(components.corazon())
+        break;
+        case '#/charlas': root.appendChild(components.charlas())
+        break;
+        case '#/categories': root.appendChild(components.categories())
+        break;
+        case '#/fussion-minicartucheras': root.appendChild(components.miniCartucheras())
+        break;
+        case '#/fussion-ecobolso': root.appendChild(components.ecoBolso())
+        break;
+        case '#/fussion-portatablets': root.appendChild(components.portaTablets())
+        break;
+        case '#/fussion-minibolsos': root.appendChild(components.miniBolsos())
+        break;
+        case '#/fussion-minimonederos': root.appendChild(components.miniMonederos())
+        break;
+        case '#/fussion-billeteras': root.appendChild(components.billeteras())
+        break;
+        case '#/fussion-llaveros': root.appendChild(components.llaveros())
         break;
         default:
             break;

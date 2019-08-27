@@ -2,7 +2,7 @@ import {dataProduct} from '../controller/funciones.js';
 
 export default () => {  
     const createDiv = document.createElement('div');
-    const catalogo = `
+    const miniCartucheras = `
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand logo" href="#"><img src="./image/fussion.jpg"></a>
@@ -50,8 +50,8 @@ export default () => {
  </div>
  </footer>
     `;
-    createDiv.innerHTML = catalogo;
-    dataProduct('Llaveros').then((response)=>{
+    createDiv.innerHTML = miniCartucheras;
+    dataProduct('Porta Tablets').then((response)=>{
 response.forEach((obj)=>{
 /* console.log(obj); */
 const appendMain=createDiv.querySelector('#products');

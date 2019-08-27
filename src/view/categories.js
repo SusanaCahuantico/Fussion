@@ -1,8 +1,7 @@
-import {dataProduct} from '../controller/funciones.js';
-
+import {dataCategories} from '../controller/funciones.js';
 export default () => {  
     const createDiv = document.createElement('div');
-    const catalogo = `
+    const categories = `
     <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand logo" href="#"><img src="./image/fussion.jpg"></a>
@@ -33,8 +32,7 @@ export default () => {
         <li class="nav-item">
         <a class="nav-link" href="#">Charlas y Talleres</a>
         </li>            
-    </ul>
-    
+    </ul>    
     </div>
 </nav>
 </header>
@@ -50,32 +48,36 @@ export default () => {
  </div>
  </footer>
     `;
-    createDiv.innerHTML = catalogo;
-    dataProduct('Llaveros').then((response)=>{
+createDiv.innerHTML = categories;
+dataCategories().then((response)=>{
 response.forEach((obj)=>{
-/* console.log(obj); */
+// console.log(obj); 
 const appendMain=createDiv.querySelector('#products');
-
 const div=document.createElement('div');
 div.setAttribute('class','content-card');
 const main=  `<div class="card-deck" >
 <div class="card" >
 <div class="product-img-div" >
+<a class="btn-category" data-category="${obj.datos.name}"  href="#/fussion-${obj.datos.category}" >
+<div class="div-options"><span class='options-name'>${obj.datos.name}</span></div>
   <img src="${obj.datos.img}" class="card-img-top" alt="..." width ={style: 50%}>
- </div>
-  <div class="card-body">
-  ${obj.datos.name !== undefined ? `
-  <h5 class="card-title">${obj.datos.name} </h5>` : ''}  
-    <p class="card-text">Info:${obj.datos.info}</p>
-    <p class="card-text">Impacto:${obj.datos.impacto}</p>
-    <p class="card-text"><small class="text-muted"> Precio: S/.${obj.datos.price}</small></p>
-  </div>
+ </div> 
+</a>
+
 </div>
 </div> `;
 div.innerHTML=main;
 appendMain.appendChild(div);
-});
-    })
+const anchorCategory = createDiv.querySelector(".btn-category");
+anchorCategory.addEventListener('click', (e) => {
+    console.log('aaaaaaaaaaaaaaaaaa');
+    console.log(e.target.children[0]);
+    console.log(e.target.children[0].textContent);
+ const dataCategory = e.target.dataset.category;
+ console.log(dataCategory);
+ });
 
-    return createDiv;
+});
+    })  
+        return createDiv;
 }
