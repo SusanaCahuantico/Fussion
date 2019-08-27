@@ -28,7 +28,7 @@ export default () => {
             </div>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Charlas y Talleres</a>
+            <a class="nav-link" href="#/charlas">Charlas y Talleres</a>
             </li>            
         </ul>
         

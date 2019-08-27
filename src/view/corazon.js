@@ -1,8 +1,27 @@
 export default () => {
     const createDiv = document.createElement('div');
     const corazon = `
-    <div> 
-       <p> hola </p>
+    <div class="container"> 
+       <div class="row justify-content-md-center">
+         <h3 class="col-12"> Fundadora </h3>
+         <img src="./image/fundadora.jpeg" class="img-fundadora">
+         <p> Directora General 
+         Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta vocacional, 
+         toda su experiencia en sostenibilidad lo aprendió de la web, lleva 7 años emprendiendo un proyecto de manejo
+          y transformación de residuos sólidos, Paula identificó una problemática latente que no solo comprendía a Perú, 
+          si no también a toda Latinoamérica y el mundo, los plásticos, la contaminación y el océano, es así que Paula empezó a 
+          estudiar el proceso de transformación de bolsas plásticas, una vez con la fórmula 
+          perfeccionada y conociendo a detalle dicho residuo, lanzó su primera marca de moda sostenible FUSSION, 
+          donde crea cuero plástico hecho en base a bolsas plásticas recicladas y diseña accesorios de moda, 
+          ideales para el uso diario y 100% estéticos. </p>
+       </div>
+       <div class="row">
+       <h3> Nuestro Equipo </h3>
+       <p> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
+       desde hace 7 años venimos recuperando
+       alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
+       <img src="./image/fotogrupo.jpg" class="img-equipo">
+       </div>
     </div>
     `;
     createDiv.innerHTML = corazon;

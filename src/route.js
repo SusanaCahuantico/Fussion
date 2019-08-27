@@ -11,11 +11,10 @@ const changetmp = (hash) => {
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/corazon'){
         return changeView(hash);
-    } /* else if(hash === '#/home' || hash === '#/charlas'){
+    } else if(hash === '#/home' || hash === '#/charlas'){
         return changeView(hash);
-    }  */
-    else if(hash === '#/home' || hash === '#/categories'){
-        return changeView(hash);
+      } else if(hash === '#/home' || hash === '#/categories'){
+            return changeView(hash);
     } else {
         return changeView('#/home');
     }
