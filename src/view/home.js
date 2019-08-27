@@ -10,7 +10,7 @@ export default () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-            <a class="nav-link" href="#/somos">Quienes somos <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#somos">Quienes somos <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#/corazon">El corazon de Fussion</a>
@@ -70,7 +70,7 @@ export default () => {
 
 
     <div>
-        <div class="cont-somos left">
+        <div id="somos" class="cont-somos left">
            
             <div class="cont-informacion somos">
            <div class="cont-mitad  cont-img">
