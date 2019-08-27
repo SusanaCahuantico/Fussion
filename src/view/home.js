@@ -77,7 +77,7 @@ export default () => {
            
             <div class="cont-informacion somos">
            <div class="cont-mitad  cont-img img-mob-cont">
-              <img src="./image/tortuga.jpg" class="img-somos">
+              <img src="./image/fondo6.jpg" class="img-somos">
            </div>
            <div class="box-que cont-mitad">
               <p class="p-somos"> <span>FUSSION</span> es una marca de productos de diseño con valor sostenible hechos
