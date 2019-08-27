@@ -53,10 +53,7 @@ export default () => {
                 <img class="d-block w-100 img-desktop" src="./image/img-3.jpg" alt="Third slide">
                 <img class="d-block w-100 img-mob" src="./image/img-3-mob.jpg" alt="First slide">
                 </div>
-                <div class="carousel-item">
-                <img class="d-block w-100 img-desktop" src="./image/img-4.jpg" alt="Third slide">
-                <img class="d-block w-100 img-mob" src="./image/img-4-mob.jpg" alt="First slide">
-                </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="fas fa-chevron-left" aria-hidden="true"></span>
@@ -142,13 +139,11 @@ export default () => {
          <div class="col-lg-6 col-xs-12  text-flex">
              <h3 class="fundadora"> Fundadora </h3>
              <p class="parrafo ">  
-                     Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta y vocacional.
+                     Paula Tamayo tiene 28 años, es mercadóloga de profesión y diseñadora / artista autodidacta y vocacional.
                      Su experiencia en sostenibilidad lo aprendió de la web; en el 2012 y con 22 años, emprendío su primer proyecto sobre recuperación de residuos sólidos; 
-                     el mismo año identificó una problemática latente, la contaminación del océanos a causa de los plásticos, que no solo comprendía a Perú, 
+                     el mismo año identificó una problemática latente, la contaminación plástica y su impacto en los océanos, que no solo comprendía a Perú, 
                      sino también a Latinoamérica y el mundo, problemática que tomó como una nueva oportunidad de emprender, transformando este nuevo residuo
-                     "bolsas plásticas"en cuero plástico, es así que después de 7 años de perfeccionar la técnica, lanza en el año 2018,
-                     FUSSION su primera marca de moda sostenible, donde crea cuero plástico hecho en base a 
-                     bolsas plásticas recicladas y diseña accesorios de moda sostenible, de uso diario, prácticos y 100% estéticos  </p>
+                     "bolsas plásticas"en cuero plástico, es así que después de 7 años de perfeccionar la técnica, lanza FUSSION en el año 2018,su primera marca de moda sostenible, donde diseña accesorios de uso diario, prácticos y 100% estéticos. </p>
  
          </div>
      </div>
@@ -159,14 +154,8 @@ export default () => {
 
     <div id="impacto">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="./image/consumeconsentido.jpg" class="img-impacto">
-            </div> 
-            <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="./image/reusa.png" class="img-impacto">
-            </div>
-            <div class="col-lg-4 col-md-6 col-xs-12">
-            <img src="./image/eco1.jpg" class="img-impacto">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+              <img src="./image/impacto-1.jpg" class="img-impacto">
             </div>
             
         </div>
