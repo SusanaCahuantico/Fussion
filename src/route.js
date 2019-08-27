@@ -11,6 +11,8 @@ const changetmp = (hash) => {
         return changeView(hash);
     } else if(hash === '#/home' || hash === '#/corazon'){
         return changeView(hash);
+    } else if(hash === '#/home' || hash === '#/charlas'){
+        return changeView(hash);
     } else {
         return changeView('#/home');
     }
@@ -29,6 +31,8 @@ const changeView = (route) => {
         case '#/merch': root.appendChild(components.merch())
         break;
         case '#/corazon': root.appendChild(components.corazon())
+        break;
+        case '#/charlas': root.appendChild(components.charlas())
         break;
         default:
             break;
