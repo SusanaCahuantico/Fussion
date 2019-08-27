@@ -16,3 +16,16 @@
     padding: 12px;
     text-align: center;
 }
+
+.img-charla{
+    width: 270px;
+    height: 300px;
+    border-radius: 250px;
+    padding: 22px;
+}
+
+.title-charla{
+    text-align: center;
+    padding: 17px;
+    font-weight: bold;
+}

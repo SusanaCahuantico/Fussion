@@ -3,15 +3,19 @@ export default () => {
     const charlas = `
     <div class="container">
       <div class="row"> 
-        <h3> CHARLAS </h3>
-        <p> lorem ipsum </p>
-        <img src="./image/taller.jpg" class="img-fundadora"> 
+        <h3 class="title-charla col-12"> CHARLAS </h3>
+        <p>  </p>
+        <img src="./image/taller4.jpg" class="img-charla col-4"> 
+        <img src="./image/taller2.jpg" class="img-charla col-4"> 
+        <img src="./image/taller3.jpg" class="img-charla col-4"> 
       </div>
 
       <div class="row"> 
-        <h3> TALLERES </h3>
-        <p> Lorem ipsum </p>
-        <img src="./image/charla.jpg" class="img-fundadora">
+        <h3 class="title-charla col-12"> TALLERES </h3>
+        <p> </p>
+        <img src="./image/charla.jpg" class="img-charla col-4">
+        <img src="./image/taller4.jpg" class="img-charla col-4"> 
+        <img src="./image/taller2.jpg" class="img-charla col-4"> 
       </div>
     </div>
     `;
