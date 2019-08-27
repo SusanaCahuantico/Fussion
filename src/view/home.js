@@ -2,7 +2,7 @@ export default () => {
     const createDiv = document.createElement('div');
     const home = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand logo" href="#"><img src="./image/fussion.jpg"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,11 +29,7 @@ export default () => {
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#">Charlas y Talleres</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Social</a>
-            </li>
-            
+            </li>            
         </ul>
         
         </div>
@@ -69,12 +65,23 @@ export default () => {
         </div>
     </div>
     <footer>
-    <div>
-        <p> Siguenos </p>
-        <i class="fab fa-instagram"></i>   
-        <i class="fab fa-facebook"></i>
-        <i class="fas fa-envelope-square"></i>
-        <i class="fab fa-whatsapp"></i>
+    <div class="cont-footer">
+        <div >
+            <p> Siguenos: </p>
+            <div class="cont-redes">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+
+        </div>
+        <div>
+            <div class="cont-icon">
+                <i class="fas fa-envelope-square"></i><span> contacto@fussionperu.com</span>
+            </div>
+            <div class="cont-icon">
+                <i class="fab fa-whatsapp"></i><span> +51 955 816 180</span>
+            </div>
+        </div>     
     </div>
     </footer>
     `;
