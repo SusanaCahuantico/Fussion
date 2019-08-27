@@ -3,6 +3,7 @@ export default () => {
     const corazon = `
     <div class="container"> 
        <div class="row">
+         <div class="col text-center"> 
          <h3 class="fundadora"> Fundadora </h3>
          <img src="./image/fundadora.jpeg" class="img-fundadora">
          <p> Directora General 
@@ -15,14 +16,17 @@ export default () => {
           donde crea cuero plástico hecho en base a bolsas plásticas recicladas y diseña accesorios de moda, 
           ideales para el uso diario y 100% estéticos. </p>
        </div>
-       <div class="row">
-       <h3 class="fundadora"> Nuestro Equipo </h3>
-       <p> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
-       desde hace 7 años venimos recuperando
-       alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
-       <img src="./image/fotogrupo.jpg" class="img-fundadora">
        </div>
-    </div>
+       <div class="row">
+       <div class="text-center">
+           <h3 class="fundadora"> Nuestro Equipo </h3>
+           <p> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
+           desde hace 7 años venimos recuperando
+           alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
+           <img src="./image/fotogrupo.jpg" class="img-fundadora">
+           </div>
+      </div>
+       </div>
     `;
     createDiv.innerHTML = corazon;
 
