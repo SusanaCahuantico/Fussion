@@ -132,6 +132,9 @@ footer i{
 .cont-somos .cont-img{
     text-align: center;
 }
+.cont-somos .cont-mitad img{
+    width: 90%;
+}
 .cont-somos .box-que{
     display: flex;
     align-items: center;
