@@ -18,9 +18,9 @@
     display: block;
     position: relative;
 }
-.fa-arrow-alt-circle-left, .fa-arrow-alt-circle-right{
+.fa-chevron-left, .fa-chevron-right{
     color: black;
-    font-size: 60px;
+    font-size: 40px;
 }
 .mr-auto, .mx-auto {
     margin-right: 0!important;
@@ -40,7 +40,12 @@ footer{
 footer i{
  font-size: 30px;
 }
-
+.carousel-item .img-desktop{
+    display: block !important;
+}
+.carousel-item .img-mob{
+    display: none !important;
+}
 .cont-footer{
     display: -ms-flexbox;
     display: -webkit-flex;

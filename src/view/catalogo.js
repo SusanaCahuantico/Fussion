@@ -46,8 +46,8 @@ export default () => {
     <i class="fab fa-facebook"></i>
     <i class="fas fa-envelope-square"></i>
     <i class="fab fa-whatsapp"></i>
-</div>
-</footer>
+ </div>
+ </footer>
     `;
     createDiv.innerHTML = catalogo;
     dataProduct().then((response)=>{
