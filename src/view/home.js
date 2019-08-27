@@ -80,16 +80,15 @@ export default () => {
               <img src="./image/fondo6.jpg" class="img-somos">
            </div>
            <div class="box-que cont-mitad">
-              <p class="p-somos"> <span>FUSSION</span> es una marca de productos de diseño con valor sostenible hechos
-                 en base a la recuperación y transformación de bolsas plásticas recolectadas
-                 dentro del proceso de reciclaje diario 
+              <p class="p-somos"> <span>FUSSION</span> es una marca de moda sostenible que trabaja a favor de la conservación de los océanos.
+            Diseña productos hechos en base a la recuperación de bolsas plásticas recolectadas dentro del proceso de reciclaje diario en la comunidad.
+                 
               </p>
-              <p> Recuperamos bolsas plásticas como materia primaa para nuestros productos,
-                 tenemos claro que cada diseño es más que solo una cartera, monedero o cartuchera hecho de reciclaje, 
-                 pues detrás de cada uno hay un motivo, un concepto, hay menos bolsas en el mar 
+              <p> Cada producto FUSSION significa menos bolsas plásticas en el mar, sumando con ello, al desarrollo sostenible de Perú, Latinoamérica  y el mundo.
+                 
               </p>
            </div>
-        </div>
+        </div
         </div>
         <div class="cont-mision-vision">
         <div class="cont-somos right">
@@ -144,14 +143,14 @@ export default () => {
          </div>
          <div class="col-lg-6 col-xs-12  text-flex">
              <h3 class="fundadora"> Fundadora </h3>
-             <p class="parrafo "> Directora General 
-                     Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta vocacional, 
-                     su experiencia en sostenibilidad lo aprendió de la web, lleva 7 años emprendiendo un proyecto de manejo
-                     y transformación de residuos sólidos, Paula identificó una problemática latente que no solo comprendía a Perú, 
-                     si no también a toda Latinoamérica y el mundo, es así que empezó a estudiar el proceso de transformación 
-                     de bolsas plásticas, una vez con la fórmula perfeccionada y conociendo a detalle dicho residuo, 
-                     lanzó su primera marca de moda sostenible FUSSION, donde crea cuero plástico hecho en base a 
-                     bolsas plásticas recicladas y diseña accesorios de moda, ideales para el uso diario y 100% estéticos. </p>
+             <p class="parrafo ">  
+                     Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta y vocacional.
+                     Su experiencia en sostenibilidad lo aprendió de la web; en el 2012 y con 22 años, emprendío su primer proyecto sobre recuperación de residuos sólidos; 
+                     el mismo año identificó una problemática latente, la contaminación del océanos a causa de los plásticos, que no solo comprendía a Perú, 
+                     sino también a Latinoamérica y el mundo, problemática que tomó como una nueva oportunidad de emprender, transformando este nuevo residuo
+                     "bolsas plásticas"en cuero plástico, es así que después de 7 años de perfeccionar la técnica, lanza en el año 2018,
+                     FUSSION su primera marca de moda sostenible, donde crea cuero plástico hecho en base a 
+                     bolsas plásticas recicladas y diseña accesorios de moda sostenible, de uso diario, prácticos y 100% estéticos  </p>
  
          </div>
      </div>
