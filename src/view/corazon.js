@@ -2,8 +2,8 @@ export default () => {
     const createDiv = document.createElement('div');
     const corazon = `
     <div class="container"> 
-       <div class="row justify-content-md-center">
-         <h3 class="col-12"> Fundadora </h3>
+       <div class="row">
+         <h3 class="fundadora"> Fundadora </h3>
          <img src="./image/fundadora.jpeg" class="img-fundadora">
          <p> Directora General 
          Paula Tamayo tiene 28 años, es mercadologa de profesión y diseñadora / artista autodidacta vocacional, 
@@ -16,11 +16,11 @@ export default () => {
           ideales para el uso diario y 100% estéticos. </p>
        </div>
        <div class="row">
-       <h3> Nuestro Equipo </h3>
+       <h3 class="fundadora"> Nuestro Equipo </h3>
        <p> En FUSSION trabajamos día a día por la conservación de nuestros océanos, 
        desde hace 7 años venimos recuperando
        alrededor de 10000 bolsas plásticas evitando estas lleguen al mar. </p>
-       <img src="./image/fotogrupo.jpg" class="img-equipo">
+       <img src="./image/fotogrupo.jpg" class="img-fundadora">
        </div>
     </div>
     `;

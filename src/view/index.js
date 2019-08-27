@@ -27,5 +27,4 @@ export const components =  {
     miniMonederos:MiniMonederos,
     billeteras:Billeteras,
     llaveros:Llaveros,
-
 }
