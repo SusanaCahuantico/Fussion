@@ -1,6 +1,5 @@
 import {dataProduct} from '../controller/funciones.js';
-export default () => {
-  console.log(dataProduct());
+export default () => {  
     const createDiv = document.createElement('div');
     const catalogo = `
     <header>
@@ -32,8 +31,7 @@ export default () => {
    </div>
   </div>
   <main id="products">
-  aqui vaaaaa un funcion
-  
+  aqui vaaaaa un funcion 
   </main>
 <footer>
 <div>
@@ -48,7 +46,24 @@ export default () => {
     createDiv.innerHTML = catalogo;
     dataProduct().then((response)=>{
 response.forEach((obj)=>{
-console.log(obj)
+console.log(obj);
+const appendMain=createDiv.querySelector('#products');
+
+const div=document.createElement('div');
+const main=  `<div class="card-deck">
+<div class="card">
+  <img src="${obj.datos.img}" class="card-img-top" alt="..." width ={style: 50%}>
+  <div class="card-body">
+  ${obj.datos.name !== undefined ? `
+  <h5 class="card-title">${obj.datos.name} </h5>` : ''}  
+    <p class="card-text">Info:${obj.datos.info}</p>
+    <p class="card-text">Impacto:${obj.datos.impacto}</p>
+    <p class="card-text"><small class="text-muted"> Precio: S/.${obj.datos.price}</small></p>
+  </div>
+</div>
+</div> `;
+div.innerHTML=main;
+appendMain.appendChild(div);
 });
     })
 
